@@ -1,0 +1,16 @@
+{
+  "name": "github-link",
+  "version": "1.0.0",
+  "description": "Make GitHub issue format text into url",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "takayukioda",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
