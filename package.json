@@ -1,5 +1,5 @@
 {
-  "name": "github-link",
+  "name": "issue-to-url",
   "version": "1.0.0",
   "description": "Make GitHub issue format text into url",
   "main": "lib/main.js",
