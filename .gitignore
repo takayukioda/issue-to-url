@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/node,coffeescript
+# Created by https://www.gitignore.io/api/node
 
 ### Node ###
 # Logs
@@ -35,8 +34,4 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
-
-
-### CoffeeScript ###
-*.js
 
