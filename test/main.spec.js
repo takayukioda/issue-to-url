@@ -28,5 +28,5 @@ describe('issue-to-link', () => {
 
     var reg = new RegExp(`https://github.com/${username}/${reponame}/issues/${issuenum}`);
     assert.match(uri.href, reg);
-  })
+  });
 });
