@@ -12,7 +12,7 @@ describe('issue-to-link', () => {
     issuenum = 4;
 
   it('should return null if format incorrect', () => {
-    var issue = `${username}/${reponame}#non-number-here`
+    var issue = `${username}/${reponame}#non-number-here`;
     assert.isNull(issueToUrl(issue));
   });
 
