@@ -27,6 +27,6 @@ describe('issue-to-link', () => {
     var uri = url.parse(issueToUrl(issue));
 
     var reg = new RegExp(`https://github.com/${username}/${reponame}/issues/${issuenum}`);
-    assert.match(uri.path, reg);
+    assert.match(uri.href, reg);
   })
 });
