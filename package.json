@@ -4,13 +4,14 @@
   "description": "Make GitHub issue format text into url",
   "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "$(npm bin)/istanbul cover $(npm bin)/_mocha test"
   },
   "keywords": [],
   "author": "takayukioda",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
     "jshint": "^2.9.1",
     "mocha": "^2.4.5"
   }
